@@ -27,7 +27,7 @@ def howmanytimes():
             count+=1
 
 # ...And this counts how many times it takes for the program to get Mansour's name on the first try :P
-j = 0
+'''j = 0
 count2 = 0
 while j == 0:
     if howmanytimes() == 1:
@@ -36,3 +36,9 @@ while j == 0:
     else:
         count2+=1
     
+'''
+
+#Test cases for assignment method
+print randomStudent(7)
+print randomStudent(8)
+print randomStudent(9)
