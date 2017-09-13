@@ -7,12 +7,15 @@ CLASSES = {
     9: [ 'Yu Qi', 'Michela', 'Kristin', 'Fabiha', 'Maxim', 'Marcus', 'Ish', 'James', 'Ryan', 'Edward', 'Adeeb', 'Jake', 'Cynthia', 'Kevin', 'Levi', 'Edmond', 'Kyle', 'Andrew', 'Max', 'Jenny', 'Philip', 'Shan', 'Mansour', 'Ray', 'Jake', 'Ida', 'Kerry', 'Stanley', 'Jackie', 'William', 'Tina', 'Michael']
 }
 
+# This is the method created for the assignment
 def randomStudent(number):
     li = CLASSES[number]
     random_int =  random.randint(0, len(li) - 1)
-    ''' print random_int'''
+   #Test case: print random_int
     return li[random_int]
 
+
+# This method randomly selects from all 3 classes and returns the number of times it takes to find Mansour's name. Just for fun to see how much random.randint() hates him :)
 def howmanytimes():
     i = 0
     count = 0
@@ -23,6 +26,7 @@ def howmanytimes():
         else:
             count+=1
 
+# ...And this counts how many times it takes for the program to get Mansour's name on the first try :P
 j = 0
 count2 = 0
 while j == 0:
